@@ -1,0 +1,102 @@
+/* =========================
+   ページ全体の設定
+   ========================= */
+
+body {
+    font-family: serif;
+    background-color: #E8F0EF;
+    margin: 0;
+}
+
+
+/* =========================
+   左右の水玉模様
+   ========================= */
+
+.dot-left,
+.dot-right {
+    position: fixed;
+    top: 0;
+    width: 100px;
+    height: 100vh;
+    background-color: #E8F0EF;
+
+    background-image:
+        radial-gradient(circle, #789EAD 6px, transparent 6px),
+        radial-gradient(circle, #789EAD 6px, transparent 6px);
+
+    background-size: 50px 50px;
+    background-position: 0 0, 25px 25px;
+
+    z-index: 0;
+}
+
+
+/* 左側の水玉 */
+
+.dot-left {
+    left: 0;
+}
+
+
+/* 右側の水玉 */
+
+.dot-right {
+    right: 0;
+}
+
+
+/* =========================
+   真ん中のメイン部分
+   ========================= */
+
+.main {
+    position: relative;
+    z-index: 1;
+    background-color: #E8F0EF;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+/* =========================
+   プロフィール画像
+   ========================= */
+
+.profile-icon {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+/* =========================
+   ページ移動メニュー
+   ========================= */
+
+nav {
+    margin: 25px auto;
+    padding: 12px 0;
+    border-top: 2px dotted #365C73;
+    border-bottom: 2px dotted #365C73;
+}
+
+
+/* ページ移動メニューの文字 */
+
+nav a {
+    color: #365C73;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+
+/* マウスを乗せたときの色 */
+
+nav a:hover {
+    color: #C98F9A;
+}
