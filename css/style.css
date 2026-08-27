@@ -45,7 +45,26 @@ body {
     right: 0;
 }
 
-
+ /* タイトル */
+        
+        header {
+            text-align: center;
+            padding: 70px 20px 40px;
+        }
+        
+        .title {
+            font-family: serif;
+            font-size: 55px;
+            color: #365C73;
+            letter-spacing: 3px;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 14px;
+            letter-spacing: 3px;
+            color: #C98F9A;
+        }
 /* =========================
    真ん中のメイン部分
    ========================= */
@@ -95,7 +114,6 @@ nav a:hover {
     color: #C98F9A;
 }
 
-
 /* マウスを乗せたときの色 */
 
 nav a:hover {
@@ -110,9 +128,16 @@ nav a:hover {
             font-size: 12px;
             color: #777;
 }
-/* メイン部分 */
-        
-        .main {
-            width: 70%;
-            margin: 60px auto;
-        }
+
+
+/* 本文中のリンク */
+
+a {
+    color: #B89A5A;
+    
+}
+
+a:hover {
+    color: #C98F9A;
+}
+
