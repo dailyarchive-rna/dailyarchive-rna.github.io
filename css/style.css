@@ -144,3 +144,52 @@ a:hover {
     color: #C98F9A;
 }
 
+/*記事　見出し*/
+.article {
+	text-align: left;
+	padding: 18px 10px;
+	border-bottom: 1px solid #C5D2D5;
+}
+
+.article a {
+	color: #365C73;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.article a:hover {
+	color: #C98F9A;
+}
+
+.date {
+	color: #C98F9A;
+	font-size: 13px;
+	margin-right: 20px;
+}
+/*音楽記事　中身*/
+.main.musicarticle h3 {
+    font-family: serif;
+    font-size: 22px;
+    color: #4F756D;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+    
+.music-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.music-content img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.music-content p {
+    text-align: left;
+    line-height: 1.8;
+    margin: 0;
+}
